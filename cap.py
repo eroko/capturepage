@@ -32,21 +32,6 @@ def get_dir():
     return filename
 
 
-# def readtxt():
-#     # 读取txt文件，返回一个列表，每个元素都是一个元组;文件的格式是图片保存的名称加英文逗号加网页地址
-#     with open('urls.txt', 'r') as f:
-#         lines = f.readlines()
-#     urls = []
-#     for line in lines:
-#         try:
-#             thelist = line.strip().split(",")
-#             if len(thelist) == 2 and thelist[0] and thelist[1]:
-#                 urls.append((thelist[0], thelist[1]))
-#         except:
-#             pass
-#     return urls
-
-
 if __name__ == '__main__':
     f = open('url.txt', mode='r')
     line = f.readlines()
